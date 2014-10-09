@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Playground</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="location_info">locationInfo</string>
+    <string name="yelp_rating">Yelp Rating</string>
+    <string name="thumbnail">thumbnail</string>
+    <string name="search_for_play_dates">Filter play dates by location:</string>
+    <string name="action_map">Map</string>
+    <string name="action_playdates">Play Dates</string>
+    <string name="action_create_playdate">Create Play Date</string>
+    <string name="loading_data">Loading Data...</string>
+    <string name="organised_by">Organizer:</string>
+    <string name="who_is_attending">Playdate Attendees</string>
+    <string name="add_attendee">Add Attendee</string>
+    <string name="description_hint">Enter a description for your playdate</string>
+    <string name="starts_at">Starts At:</string>
+    <string name="ends_at">Ends At:</string>
+    <string name="location_label">Location:</string>
+    <string name="save">Save</string>
+    <string name="add_attendee_label">Add</string>
+    <string name="location_amenities">Location amenities</string>
+    <string name="play_dates_list_label">Play dates</string>
+    <string name="show_playdates">Find Playdates</string>
+    <string name="search">Search</string>
+    <string name="play_date_details">Play Date Details</string>
+    <string name="create_play_date">Create Play Date</string>
+    <string name="find_play_dates">Find Play Dates</string>
+    <string name="place_details">Location Details</string>
+    <string name="find_things_to_do">Places of Interest</string>
+
+</resources>

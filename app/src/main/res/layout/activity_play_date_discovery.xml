@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/playdate_search_label"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:labelFor="@+id/playdate_search_field"
+        android:text="@string/search_for_play_dates"
+        android:gravity="bottom"
+        android:textStyle="bold"
+        style="@style/big_label_text" />
+
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="2">
+
+
+
+        <EditText
+            android:id="@+id/playdate_search_field"
+            android:layout_weight="4"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:inputType="text" />
+
+        <ImageButton
+            android:id="@+id/filter_play_dates_button"
+            android:contentDescription="@string/location_info"
+            android:src="@android:drawable/ic_menu_search"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:background="@drawable/yellow_button"
+            android:layout_weight="1"
+            style="@style/big_label_text"
+            android:minHeight="60dp"
+            android:layout_margin="20dp" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/play_date_list_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"/>
+
+</LinearLayout>

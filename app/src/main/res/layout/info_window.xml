@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:textSize="18sp"
+        android:text="Title"
+        android:gravity="center_vertical"
+        android:textStyle="bold"
+        android:layout_margin="1dp" />
+
+    <ImageButton
+        android:id="@+id/play_date_btn"
+        android:contentDescription="@string/play_dates_list_label"
+        android:src="@android:drawable/ic_menu_agenda"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:background="@drawable/yellow_button"
+        android:layout_margin="1dp" />
+
+    <ImageButton
+        android:id="@+id/details_button"
+        android:contentDescription="@string/location_info"
+        android:src="@android:drawable/ic_menu_info_details"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:background="@drawable/yellow_button"
+        android:layout_margin="1dp" />
+
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:background="@drawable/yellow_button"
+        android:baselineAligned="false">
+
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:id="@+id/play_dates_list_header"
+            android:text="@string/play_dates_list_label"
+            android:singleLine="true"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:minHeight="60dp"
+            style="@style/big_label_text" />
+
+        <Button
+            android:id="@+id/add_attendee_button"
+            android:drawableLeft="@android:drawable/ic_menu_add"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/add_attendee_label"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/add_attendee"
+            android:layout_weight="1"
+            android:singleLine="true"
+            android:paddingRight="10dp"
+            android:minHeight="60dp"
+            style="@style/big_label_text"  />
+
+    </TableRow>
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        android:drawSelectorOnTop="false" />
+
+</LinearLayout>

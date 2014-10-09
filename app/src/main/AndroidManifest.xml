@@ -4,18 +4,42 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".MapsActivity"
-            android:label="@string/title_activity_maps" >
+            android:name=".activity.MapsActivity"
+            android:label="@string/find_things_to_do" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".activity.PointOfInterestDetailsActivity"
+            android:label="@string/place_details" >
+        </activity>
+
+        <activity
+            android:name=".activity.PlayDateDiscoveryActivity"
+            android:label="@string/find_play_dates" >
+        </activity>
+
+        <activity
+            android:name=".activity.PlayDateCreateActivity"
+            android:label="@string/create_play_date" >
+        </activity>
+
+        <activity
+            android:name=".activity.PlayDateDetailsActivity"
+            android:label="@string/play_date_details" >
+        </activity>
+
+        <provider android:name="com.hackathon.playground.app.provider.PlaygroundProvider"
+            android:exported="true"
+            android:enabled="true"
+            android:authorities="com.hackathon.playground.playgroundprovider"> </provider>
 
         <meta-data
             android:name="com.google.android.gms.version"
